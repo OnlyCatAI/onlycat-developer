@@ -3,7 +3,7 @@
 ## Welcome
 
 This is the developer hub for the OnlyCat smart cat flap:  
-https://onlycat.ai
+https://www.onlycat.com
 
 We’ll be sharing APIs, developer documentation, and featuring community-built projects.
 
