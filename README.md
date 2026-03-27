@@ -16,17 +16,24 @@ https://github.com/OnlyCatAI/onlycat-developer/discussions
 
 ---
 
-## 🏠 Home Assistant Integration
-
-Official community integration:  
-https://github.com/OnlyCatAI/onlycat-home-assistant
-
----
-
 ## 💬 Discord
 
 Join the OnlyCat community:  
 https://discord.gg/Xg3bCgXbZa
+
+---
+
+## 📘 Door Policy Schema
+
+Learn about the OnlyCat Door Policy schema:
+https://www.onlycat.com/door-policy-schema/
+
+---
+
+## 🏠 Home Assistant Integration
+
+Official community integration:  
+https://github.com/OnlyCatAI/onlycat-home-assistant
 
 ---
 
