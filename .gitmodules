@@ -1,0 +1,3 @@
+[submodule "sdk/models"]
+	path = sdk/models
+	url = https://github.com/OnlyCatAI/onlycat-shared-models.git
