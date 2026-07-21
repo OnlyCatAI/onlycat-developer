@@ -30,6 +30,38 @@ https://www.onlycat.com/door-policy-schema/
 
 ---
 
+## 🔑 API Keys
+
+Enable **Developer Mode** in the OnlyCat app under **Account**, then open
+**API Keys** to create a key for your integration.
+
+API keys have full access to your OnlyCat account. Create a separate key for
+each integration, store it securely, and revoke it from the app when it is no
+longer needed. A new key is displayed only when it is created.
+
+Use the key as the Socket.IO authentication token:
+
+```python
+import asyncio
+import socketio
+
+async def main():
+    client = socketio.AsyncClient()
+    await client.connect(
+        "https://gateway.onlycat.com",
+        transports=["websocket"],
+        auth={"token": "oc_live_..."},
+    )
+    await client.wait()
+
+asyncio.run(main())
+```
+
+API key authentication grants the same account-level Socket.IO access as the
+OnlyCat app. REST bearer authentication is not currently supported.
+
+---
+
 ## 🏠 Home Assistant Integration
 
 Official community integration:  
